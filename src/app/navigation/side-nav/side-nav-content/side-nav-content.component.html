@@ -1,0 +1,24 @@
+<div>
+    <mat-nav-list>
+
+        <a (click)="toolbarItemClickHandler(i)"
+           *ngFor="let page of toolbarPagesTitles; index as i"
+           class="item"
+           mat-list-item>
+            {{page}}
+        </a>
+
+        <a (click)="helpClickHandler()" class="item" i18n="@@SideNav.Help" mat-list-item>
+            Help
+        </a>
+
+        <mat-divider></mat-divider>
+
+        <a (click)="logoutClickHandler()" class="item" i18n="@@SideNav.LogoutButton" mat-list-item>
+            Logout
+        </a>
+        <app-loading-bar [isVisible]="isLoading"></app-loading-bar>
+
+    </mat-nav-list>
+
+</div>

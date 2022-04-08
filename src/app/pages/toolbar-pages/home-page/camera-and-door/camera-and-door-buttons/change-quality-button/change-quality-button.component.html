@@ -1,0 +1,6 @@
+<button (click)="loopQuality()" [matTooltip]="tooltip" color="primary" mat-fab>
+    <div [ngSwitch]="videoSettings.quality">
+        <div *ngSwitchCase="VideoQuality.HD">SD</div>
+        <div *ngSwitchDefault>HD</div>
+    </div>
+</button>

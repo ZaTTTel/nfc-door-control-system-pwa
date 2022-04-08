@@ -1,0 +1,11 @@
+<mat-expansion-panel>
+    <mat-expansion-panel-header>
+        <mat-panel-title i18n="@@NfcTags.CurrentUser.Label">
+            <!--            Display the user currently being edited-->
+            "{{_switchUserStatus.user ? _switchUserStatus.user.name : ""}}" is currently being edited.
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <app-change-user class="element"></app-change-user>
+
+</mat-expansion-panel>

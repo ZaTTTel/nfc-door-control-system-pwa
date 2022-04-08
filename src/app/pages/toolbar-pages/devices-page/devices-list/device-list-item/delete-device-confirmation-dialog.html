@@ -1,0 +1,8 @@
+<mat-dialog-content>
+    <h2 i18n="@@Dialogs.Header.Sure">Are you sure?</h2>
+    <p i18n="@@Devices.Delete.Confirmation">Deleting '{{device["label"]}}' cannot be undone!</p>
+</mat-dialog-content>
+<mat-dialog-actions style="justify-content: flex-end;">
+    <button [mat-dialog-close]="false" i18n="@@Dialogs.Button.Cancel" mat-button>Cancel</button>
+    <button [mat-dialog-close]="true" cdkFocusInitial i18n="@@Dialogs.Button.Delete" mat-button>Delete</button>
+</mat-dialog-actions>

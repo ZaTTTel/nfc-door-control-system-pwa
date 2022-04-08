@@ -1,0 +1,11 @@
+.button-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 350px;
+}
+
+.button {
+    width: 100%;
+}

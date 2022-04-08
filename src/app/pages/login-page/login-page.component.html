@@ -1,0 +1,29 @@
+<!--<img src="assets/icons/icon.svg" class="logo" alt="logo" style="margin-bottom: 20px">-->
+
+<mat-form-field (keyup.enter)="passwordInput.focus()" appearance="fill" class="item">
+    <mat-label i18n="@@Login.FormField.Username">
+        Username
+    </mat-label>
+    <input #usernameInput matInput>
+</mat-form-field>
+
+<mat-form-field (keyup.enter)="loginButtonHandler()" appearance="fill" class="item">
+    <mat-label
+        i18n="@@Login.FormField.Password">
+        Password
+    </mat-label>
+    <input #passwordInput [type]="hidePassword ? 'password' : 'text'" matInput>
+    <button (click)="hidePassword = !hidePassword" mat-icon-button matSuffix>
+        <mat-icon>{{hidePassword ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+</mat-form-field>
+
+<app-loading-bar [isVisible]="isLoading"></app-loading-bar>
+
+<button (click)="loginButtonHandler()"
+        class="item" color="primary"
+        i18n="@@Login.ConfirmButton"
+        mat-raised-button
+        type="submit">
+    Log In
+</button>

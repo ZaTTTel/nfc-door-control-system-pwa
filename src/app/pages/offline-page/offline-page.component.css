@@ -1,0 +1,8 @@
+.logo {
+    width: 90%;
+    max-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    user-select: none;
+}

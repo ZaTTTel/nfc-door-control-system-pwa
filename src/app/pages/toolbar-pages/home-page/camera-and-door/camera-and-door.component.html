@@ -1,0 +1,19 @@
+<div [ngStyle]="{'padding-top':config.streamAspectRatio}" class='box'>
+    <div (click)="streamClickHandler()" [matRippleDisabled]="disableStreamClick" class="content mat-elevation-z4"
+         matRipple>
+        <app-video-stream *ngIf="!videoSettings.videoIsOff; else noCamAccess" style="width: 100%;"></app-video-stream>
+
+        <ng-template #noCamAccess>
+            <div class="no-cam-access ">
+                <i class="material-icons" style="font-size: 128px; ">videocam_off</i>
+            </div>
+        </ng-template>
+    </div>
+</div>
+
+<div style="display: flex; margin-top: 10px; justify-content: center">
+    <app-open-door-button #openDoorButton class="button"></app-open-door-button>
+    <app-toggle-camera-button #toggleCamButton class="button"></app-toggle-camera-button>
+    <app-change-quality-button class="button"></app-change-quality-button>
+    <app-fullscreen-button class="button"></app-fullscreen-button>
+</div>

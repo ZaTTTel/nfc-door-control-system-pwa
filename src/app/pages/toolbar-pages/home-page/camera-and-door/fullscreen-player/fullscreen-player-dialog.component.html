@@ -1,0 +1,17 @@
+<div (keyup.escape)="close()" class="wrapper">
+    <app-video-stream></app-video-stream>
+
+    <div class="button-wrapper">
+
+        <app-open-door-button class="button"></app-open-door-button>
+
+        <app-change-quality-button class="button"></app-change-quality-button>
+
+        <button [matDialogClose]="" [matTooltip]="closeButtonTooltip" class="button" color="primary" mat-fab>
+            <div class="button-icon-wrapper">
+                <mat-icon>fullscreen_exit</mat-icon>
+            </div>
+        </button>
+    </div>
+
+</div>

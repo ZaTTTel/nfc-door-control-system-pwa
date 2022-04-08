@@ -1,0 +1,15 @@
+.custom-scroll-bar {
+    /*This does not allow the list to shrink smaller than one entry*/
+    min-height: 75px;
+    /*This shrinks the list to fit the screen size. The 245px is basically the height of the button + the height of the label. */
+    max-height: calc(100vh - 245px);
+    overflow: auto;
+}
+
+.custom-scroll-bar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.custom-scroll-bar::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, .26);
+}

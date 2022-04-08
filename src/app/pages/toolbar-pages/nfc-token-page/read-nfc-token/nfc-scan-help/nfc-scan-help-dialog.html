@@ -1,0 +1,14 @@
+<mat-dialog-content>
+    <div [innerHTML]="helpTextHtml"></div>
+    <button (click)="manualEntryHandler()" i18n="@@NfcTags.ManualEntryButton" mat-button>
+        Manually Enter Tag
+    </button>
+    <app-manual-sync-button (onLoading)="displayLoading($event)"></app-manual-sync-button>
+</mat-dialog-content>
+
+<app-loading-bar [isVisible]="isLoading"></app-loading-bar>
+
+<mat-dialog-actions style="justify-content: flex-end;">
+    <button [mat-dialog-close]="" i18n="@@Dialogs.Button.Close" mat-button>Close</button>
+</mat-dialog-actions>
+

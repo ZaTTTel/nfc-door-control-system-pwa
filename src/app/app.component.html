@@ -1,0 +1,40 @@
+<div *ngIf="!isOnline; else online" class="smart-size">
+    <app-offline-page></app-offline-page>
+</div>
+
+<ng-template #online>
+    <div *ngIf="loginStatus.user; else login" class="content">
+
+        <app-toolbar (onBurgerClick)="drawer.toggle()"></app-toolbar>
+
+        <mat-drawer-container [hasBackdrop]="!isWideScreen" class="content">
+
+            <mat-drawer #drawer [mode]="'over'">
+                <app-side-nav-content
+                    (onItemClick)="activePageNumber = $event; !isWideScreen ? drawer.close() : undefined"
+                    [toolbarPagesTitles]="TOOLBAR_PAGE_TITLES">
+                </app-side-nav-content>
+            </mat-drawer>
+
+            <div [ngSwitch]="activePageNumber" style="height: 100%;">
+                <div *ngSwitchCase="0" class="smart-size home-page-wrapper">
+                    <app-home-page class="home-page"></app-home-page>
+                </div>
+
+                <div *ngSwitchCase="1" class="smart-size nfc-token-page-wrapper">
+                    <app-nfc-token-page class="nfc-token-page"></app-nfc-token-page>
+                </div>
+
+                <div *ngSwitchCase="2" class="smart-size devices-page-wrapper">
+                    <app-devices-page class="devices-page"></app-devices-page>
+                </div>
+            </div>
+        </mat-drawer-container>
+    </div>
+
+    <ng-template #login>
+        <div *ngIf="isOnline" class="smart-size">
+            <app-login-page></app-login-page>
+        </div>
+    </ng-template>
+</ng-template>

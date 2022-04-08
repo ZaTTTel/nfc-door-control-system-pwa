@@ -1,0 +1,50 @@
+.box {
+    position: relative;
+    width: 100%;
+
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* Equivalent to 16:9*/
+}
+
+.box:before {
+
+}
+
+.content {
+    display: flex;
+
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.no-cam-access {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.no-cam-text {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+}

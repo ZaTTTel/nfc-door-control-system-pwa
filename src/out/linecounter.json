@@ -1,0 +1,820 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\dev\\TECO_DOOR\\Implementierung\\pwa\\src",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-01-31 11:59:13",
+            "filesum": 123,
+            "codesum": 2417,
+            "commentsum": 1372,
+            "blanksum": 366,
+            "statistics": {
+                ".css": {
+                    "code": 157,
+                    "comment": 4,
+                    "blank": 27
+                },
+                ".webmanifest": {
+                    "code": 60,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ts": {
+                    "code": 1579,
+                    "comment": 1028,
+                    "blank": 281
+                },
+                ".html": {
+                    "code": 354,
+                    "comment": 8,
+                    "blank": 50
+                },
+                ".scss": {
+                    "code": 37,
+                    "comment": 15,
+                    "blank": 7
+                },
+                ".svg": {
+                    "code": 39,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".pdn": {
+                    "code": 116,
+                    "comment": 317,
+                    "blank": 0
+                },
+                ".xlf": {
+                    "code": 75,
+                    "comment": 0,
+                    "blank": 1
+                },
+                "": {
+                    "code": 0,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 7,
+                    "code": 38,
+                    "comment": 3,
+                    "filename": "app\\app.component.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "app\\app.component.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 20,
+                    "comment": 27,
+                    "filename": "app\\app.component.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 169,
+                    "comment": 6,
+                    "filename": "app\\app.module.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\common\\components\\loading-bar\\loading-bar.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "app\\common\\components\\loading-bar\\loading-bar.component.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 13,
+                    "filename": "app\\common\\components\\loading-bar\\loading-bar.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\common\\components\\uid-display\\uid-display.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "app\\common\\components\\uid-display\\uid-display.component.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 10,
+                    "filename": "app\\common\\components\\uid-display\\uid-display.component.ts"
+                },
+                {
+                    "blank": 27,
+                    "code": 302,
+                    "comment": 68,
+                    "filename": "app\\common\\services\\communicators\\api-communicator\\api-communicator.service.ts"
+                },
+                {
+                    "blank": 13,
+                    "code": 16,
+                    "comment": 54,
+                    "filename": "app\\common\\services\\communicators\\CommunicatorService.ts"
+                },
+                {
+                    "blank": 30,
+                    "code": 195,
+                    "comment": 1,
+                    "filename": "app\\common\\services\\communicators\\dummy-communicator\\dummy-communicator.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 14,
+                    "filename": "app\\common\\services\\logger\\console-logger\\console-logger.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 14,
+                    "filename": "app\\common\\services\\logger\\LoggerService.ts"
+                },
+                {
+                    "blank": 10,
+                    "code": 25,
+                    "comment": 32,
+                    "filename": "app\\common\\services\\login-status\\login-status.service.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 6,
+                    "comment": 20,
+                    "filename": "app\\common\\services\\nfc-uid-scanner\\NfcUidScannerService.ts"
+                },
+                {
+                    "blank": 13,
+                    "code": 49,
+                    "comment": 55,
+                    "filename": "app\\common\\services\\nfc-uid-scanner\\web-nfc-uid-scanner\\web-nfc-uid-scanner.service.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 20,
+                    "comment": 21,
+                    "filename": "app\\common\\services\\pop-up\\pop-up.service.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 24,
+                    "filename": "app\\common\\services\\switch-user-status\\switch-user-status.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 13,
+                    "filename": "app\\common\\util-types\\user\\User.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "app\\navigation\\side-nav\\side-nav-content\\side-nav-content.component.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "app\\navigation\\side-nav\\side-nav-content\\side-nav-content.component.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 33,
+                    "filename": "app\\navigation\\side-nav\\side-nav-content\\side-nav-content.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\navigation\\toolbar\\toolbar.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "app\\navigation\\toolbar\\toolbar.component.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 10,
+                    "filename": "app\\navigation\\toolbar\\toolbar.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "app\\pages\\login-page\\login-page.component.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "app\\pages\\login-page\\login-page.component.html"
+                },
+                {
+                    "blank": 10,
+                    "code": 52,
+                    "comment": 26,
+                    "filename": "app\\pages\\login-page\\login-page.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 6,
+                    "filename": "app\\pages\\PageComponent.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\add-device-button\\add-device-button.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\add-device-button\\add-device-button.component.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 33,
+                    "comment": 20,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\add-device-button\\add-device-button.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-list\\device-list-item\\delete-device-confirmation-dialog.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-list\\device-list-item\\device-list-item.component.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 4,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-list\\device-list-item\\device-list-item.component.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 67,
+                    "comment": 47,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-list\\device-list-item\\device-list-item.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-list\\devices-list.component.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-list\\devices-list.component.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 29,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-list\\devices-list.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-page.component.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-page.component.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 13,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\devices-page.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\input-device-info-dialog\\input-device-info-dialog.component.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\input-device-info-dialog\\input-device-info-dialog.component.html"
+                },
+                {
+                    "blank": 8,
+                    "code": 49,
+                    "comment": 40,
+                    "filename": "app\\pages\\toolbar-pages\\devices-page\\input-device-info-dialog\\input-device-info-dialog.component.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\camera-access.component.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\camera-access.component.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 12,
+                    "comment": 12,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\camera-access.component.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\video-stream\\http-video\\http-video.component.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\video-stream\\http-video\\http-video.component.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\video-stream\\http-video\\http-video.component.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\video-stream\\rtsp-video\\rtsp-video.component.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\video-stream\\rtsp-video\\rtsp-video.component.html"
+                },
+                {
+                    "blank": 7,
+                    "code": 30,
+                    "comment": 52,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\camera-access\\video-stream\\rtsp-video\\rtsp-video.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\home-page.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\home-page.component.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 6,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\home-page.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\open-door-button\\open-door-button.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\open-door-button\\open-door-button.component.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 20,
+                    "filename": "app\\pages\\toolbar-pages\\home-page\\open-door-button\\open-door-button.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\current-uid.component.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\current-uid.component.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 22,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\current-uid.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\delete-uid-button\\delete-uid-button.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\delete-uid-button\\delete-uid-button.component.html"
+                },
+                {
+                    "blank": 9,
+                    "code": 47,
+                    "comment": 43,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\delete-uid-button\\delete-uid-button.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\delete-uid-button\\delete-uid-confirmation-dialog.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\user-has-uid-button\\check-uid-info-dialog.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\user-has-uid-button\\user-has-uid-button.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\user-has-uid-button\\user-has-uid-button.component.html"
+                },
+                {
+                    "blank": 7,
+                    "code": 42,
+                    "comment": 39,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-uid\\user-has-uid-button\\user-has-uid-button.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-user\\change-user\\change-user-info-dialog.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-user\\change-user\\change-user.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-user\\change-user\\change-user.component.html"
+                },
+                {
+                    "blank": 5,
+                    "code": 37,
+                    "comment": 32,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-user\\change-user\\change-user.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-user\\current-user.component.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 1,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-user\\current-user.component.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 11,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\current-user\\current-user.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\nfc-uid-page.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\nfc-uid-page.component.html"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 13,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\nfc-uid-page.component.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\read-uid\\read-uid.component.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 3,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\read-uid\\read-uid.component.html"
+                },
+                {
+                    "blank": 13,
+                    "code": 75,
+                    "comment": 65,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\read-uid\\read-uid.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\read-uid\\set-uid\\set-uid-dialog.component.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\read-uid\\set-uid\\set-uid-dialog.component.html"
+                },
+                {
+                    "blank": 6,
+                    "code": 30,
+                    "comment": 45,
+                    "filename": "app\\pages\\toolbar-pages\\nfc-uid-page\\read-uid\\set-uid\\set-uid-dialog.component.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 6,
+                    "filename": "app\\pages\\toolbar-pages\\ToolbarPageComponent.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "assets\\.gitkeep"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "assets\\Contactless-Logo\\Contactless.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "assets\\Contactless-Logo\\No_Contactless.svg"
+                },
+                {
+                    "filename": "assets\\icons\\icon-128x128.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-144x144.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-152x152.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-192x192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-384x384.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-512x512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-72x72.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-96x96.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-only lock.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-rendered-2-light.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-rendered-2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-rendered-3-light.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-rendered-3.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-rendered-light.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon-rendered.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon.blend",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\icons\\icon.blend1",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 116,
+                    "comment": 317,
+                    "filename": "assets\\icons\\icon.pdn"
+                },
+                {
+                    "blank": 7,
+                    "code": 37,
+                    "comment": 15,
+                    "filename": "custom-theme.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "environments\\environment.prod.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 11,
+                    "filename": "environments\\environment.ts"
+                },
+                {
+                    "filename": "favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "locale\\messages.de.xlf"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "locale\\messages.xlf"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "main.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "manifest.webmanifest"
+                },
+                {
+                    "blank": 2,
+                    "code": 2,
+                    "comment": 51,
+                    "filename": "polyfills.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "styles.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 15,
+                    "comment": 4,
+                    "filename": "test.ts"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+<mat-form-field appearance="fill" class="element">
+    <mat-label i18n="@@NfcTags.CurrentUser.InputUsername">Username</mat-label>
+    <input #usernameInput
+           (keyup.enter)="switchUserHandler(usernameInput.value); usernameInput.value = ''"
+           [matAutocomplete]="auto"
+           aria-label="Username"
+           matInput
+           type="text">
+    <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let username of usernames" [value]="username">
+            {{username}}
+        </mat-option>
+    </mat-autocomplete>
+</mat-form-field>
+<button (click)="switchUserHandler(usernameInput.value); usernameInput.value = ''"
+        class="element"
+        color="warn"
+        i18n="@@NfcTags.CurrentUser.Switch.Button"
+        mat-stroked-button>
+    Switch User (Admin)
+</button>

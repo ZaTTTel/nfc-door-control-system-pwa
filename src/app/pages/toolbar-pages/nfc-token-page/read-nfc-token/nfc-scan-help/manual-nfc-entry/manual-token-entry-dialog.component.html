@@ -1,0 +1,13 @@
+<div style="display: flex; flex-direction: column">
+    <mat-form-field>
+        <mat-label i18n="@@NfcTags.ManualEntry.InputLabel">NFC Tag</mat-label>
+        <input #input matInput>
+    </mat-form-field>
+
+    <div style="display: flex; flex-direction: row; justify-content: flex-end;">
+        <button [matDialogClose]="" i18n="@@Dialogs.Button.Cancel" mat-button>Cancel</button>
+        <button (click)="buttonHandler(input.value)" i18n="@@Dialogs.Button.Confirm" mat-button>
+            Confirm
+        </button>
+    </div>
+</div>

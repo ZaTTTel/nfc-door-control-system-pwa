@@ -1,0 +1,32 @@
+<mat-list-item>
+
+    <!--    the Icon displaying the event type-->
+    <mat-icon [ngSwitch]="device['event']" matListIcon>
+        <div *ngSwitchCase="Event['BELL_RUNG']">
+            notifications_active
+        </div>
+        <div *ngSwitchCase="Event['DOOR_OPENED']">
+            meeting_room
+        </div>
+    </mat-icon>
+
+    <!--    the label and the endpoint-->
+    <h3 matLine> {{device["label"]}} </h3>
+    <p matLine>{{device["endpoint"]}}</p>
+
+    <!--    the menu button-->
+    <button [matMenuTriggerFor]="menu" mat-icon-button>
+        <mat-icon>more_vert</mat-icon>
+    </button>
+    <!--    the menu-->
+    <mat-menu #menu>
+        <button (click)="editHandler()" mat-menu-item>
+            <mat-icon>edit</mat-icon>
+            <span i18n="@@Devices.Edit.Button">Edit</span>
+        </button>
+        <button (click)="deleteHandler()" mat-menu-item>
+            <mat-icon>delete</mat-icon>
+            <span i18n="@@Devices.Delete.Button">Delete</span>
+        </button>
+    </mat-menu>
+</mat-list-item>

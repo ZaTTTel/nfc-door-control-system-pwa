@@ -1,0 +1,8 @@
+<button (click)="openDoor()" [disabled]="isLoading" [matTooltip]="tooltip" color="primary" mat-fab>
+    <mat-icon *ngIf="!isLoading; else spinner">meeting_room</mat-icon>
+    <ng-template #spinner>
+        <div class="spinner-wrapper">
+            <mat-spinner diameter="35" strokeWidth="7" style="margin:auto auto"></mat-spinner>
+        </div>
+    </ng-template>
+</button>

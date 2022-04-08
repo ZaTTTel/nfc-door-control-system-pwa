@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e58451ae-dc6f-4806-9508-68604c5b6df4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../pwa/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../pwa/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pwa/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pwa/src/app/common/services/login-status/login-status.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../pwa/src/app/common/services/login-status/login-status.service.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22abk747YNcBXK67yWW2ZG55AIr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utilities" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Documents\GitHub\TECO_DOOR\Implementierung\shared\utilities" />
+      <recent name="C:\Users\Alex\Documents\GitHub\TECO_DOOR\Implementierung\shared\utilities\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/utilities/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prepare" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/utilities/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prepare" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="npm.prepare" />
+      <item itemvalue="npm.build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e58451ae-dc6f-4806-9508-68604c5b6df4" name="Changes" comment="" />
+      <created>1640078785046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640078785046</updated>
+      <workItem from="1640078786386" duration="5117000" />
+      <workItem from="1640085722074" duration="1196000" />
+      <workItem from="1640090828099" duration="830000" />
+      <workItem from="1640163773293" duration="69000" />
+      <workItem from="1640258832189" duration="5343000" />
+      <workItem from="1640264242467" duration="938000" />
+      <workItem from="1640336169538" duration="4701000" />
+      <workItem from="1640344550841" duration="3315000" />
+      <workItem from="1640601376966" duration="2546000" />
+      <workItem from="1640616531553" duration="5000" />
+      <workItem from="1643446032737" duration="684000" />
+      <workItem from="1643463791778" duration="37000" />
+      <workItem from="1643558442893" duration="729000" />
+      <workItem from="1644144701793" duration="4505000" />
+      <workItem from="1644602305080" duration="631000" />
+      <workItem from="1644869074735" duration="4000" />
+      <workItem from="1644869333735" duration="1597000" />
+      <workItem from="1644936996675" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/utilities/src/Port.js" />
+        <option value="$PROJECT_DIR$/utilities/src/event-subscriber/Endpoint.js" />
+        <option value="$PROJECT_DIR$/utilities/src/user/session-token/EndTime.js" />
+        <option value="$PROJECT_DIR$/utilities/src/user/session-token/SessionToken.js" />
+        <option value="$PROJECT_DIR$/utilities/src/http-message/HttpStatus.js" />
+        <option value="$PROJECT_DIR$/utilities/src/event-subscriber/Event.js" />
+        <option value="$PROJECT_DIR$/utilities/src/event-subscriber/index.js" />
+        <option value="$PROJECT_DIR$/utilities/src/event-subscriber/EventSubscriber.js" />
+        <option value="$PROJECT_DIR$/utilities/src/event-subscriber/SubscriberLabel.js" />
+        <option value="$PROJECT_DIR$/utilities/src/user/Password.js" />
+        <option value="$PROJECT_DIR$/utilities/src/user/Username.js" />
+        <option value="$PROJECT_DIR$/utilities/src/http-message/HttpBody.js" />
+        <option value="$PROJECT_DIR$/utilities/src/http-message/HttpMethod.js" />
+        <option value="$PROJECT_DIR$/utilities/src/HostName.js" />
+        <option value="$PROJECT_DIR$/utilities/src/index.js" />
+        <option value="$PROJECT_DIR$/utilities/src/Name.js" />
+        <option value="$PROJECT_DIR$/utilities/src/IpAddress.js" />
+        <option value="$PROJECT_DIR$/utilities/src/Url.js" />
+        <option value="$PROJECT_DIR$/utilities/src/Hash.js" />
+        <option value="$PROJECT_DIR$/utilities/src/Uri.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

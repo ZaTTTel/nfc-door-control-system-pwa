@@ -1,0 +1,19 @@
+{
+  "name": "shared-utilities",
+  "version": "1.0.0",
+  "description": "A package containing types that can be used when implementing subsystems for the TECO Door project using TypeScript. These types usually do not have much utility, but are often useful to specify more generalized types. (i.e. using a Name object in the place of a String can clarify its usage)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Alex Suddendorf, uemqn@student.kit.edu",
+  "license": "ISC",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "files": [
+    "/dist"
+  ]
+}

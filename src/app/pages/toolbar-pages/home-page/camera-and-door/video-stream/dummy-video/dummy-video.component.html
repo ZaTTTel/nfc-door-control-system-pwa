@@ -1,0 +1,10 @@
+<img *ngIf="cameraActive; else spinner" [src]="(videoSettings.quality == VideoQuality.HD) ? hdImage : sdImage"
+     alt="Robber!"
+     class="img"
+>
+
+<ng-template #spinner>
+    <div class="wrapper">
+        <mat-spinner class="inner" color="accent"></mat-spinner>
+    </div>
+</ng-template>

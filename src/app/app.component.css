@@ -1,0 +1,48 @@
+.smart-size {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 700px;
+    max-width: 90%;
+    margin: 0 auto 0;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+/*Configure height of NFC-Token page*/
+@media (max-height: 750px) {
+    .nfc-token-page-wrapper {
+        justify-content: start;
+    }
+
+    .nfc-token-page {
+        margin-top: 20px;
+    }
+}
+
+/*Configure height of home page*/
+@media (max-height: 550px) and (min-width: 450px) {
+    .home-page-wrapper {
+        justify-content: start;
+    }
+
+    .home-page {
+        margin-top: 20px;
+    }
+}
+
+/*Configure height of devices page*/
+@media (max-height: 299px) {
+    .devices-page-wrapper {
+        justify-content: start;
+    }
+
+    .devices-page {
+        margin-top: 20px;
+    }
+}

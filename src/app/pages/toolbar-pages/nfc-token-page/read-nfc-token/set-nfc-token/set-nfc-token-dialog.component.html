@@ -1,0 +1,24 @@
+<h2>
+    <app-nfc-token-display [nfcToken]="newNfcToken"></app-nfc-token-display>
+</h2>
+
+<br>
+
+<mat-dialog-content>
+    <p>Do you wish to assign the tag above to the user '{{user.name}}'?</p>
+
+    <p style="color: red;">
+        Warning: If the user {{user.name}} already has an NFC tag assigned, it will be overwritten.
+    </p>
+</mat-dialog-content>
+
+<mat-dialog-actions style="justify-content: flex-end;">
+    <button [mat-dialog-close]="" mat-button>Cancel</button>
+    <button (click)="confirmButtonHandler()"
+            color="primary"
+            mat-flat-button>
+        Confirm
+    </button>
+</mat-dialog-actions>
+
+

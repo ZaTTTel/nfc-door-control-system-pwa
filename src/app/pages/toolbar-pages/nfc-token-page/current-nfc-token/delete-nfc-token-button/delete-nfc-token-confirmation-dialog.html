@@ -1,0 +1,12 @@
+<mat-dialog-content>
+    <h2 i18n="@@Dialogs.Header.Sure">Are you sure?</h2>
+    <p i18n="@@NfcTags.CurrentTag.Remove.Confirmation">
+        Deleting the NFC Tag of the user {{user.name}} cannot be undone without rescanning the tag.
+        <br>
+        If the user does not yet have an NFC Tag assigned, nothing will be changed.
+    </p>
+</mat-dialog-content>
+<mat-dialog-actions style="justify-content: flex-end;">
+    <button [mat-dialog-close]="false" mat-button>Cancel</button>
+    <button [mat-dialog-close]="true" cdkFocusInitial mat-button>Delete</button>
+</mat-dialog-actions>

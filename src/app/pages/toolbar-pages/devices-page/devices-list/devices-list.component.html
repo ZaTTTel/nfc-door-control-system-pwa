@@ -1,0 +1,17 @@
+<mat-list class="custom-scroll-bar">
+    <mat-divider></mat-divider>
+
+    <div *ngIf="devices.length > 0; else noDevices">
+        <div *ngFor="let device of devices">
+            <app-device-list-item [device]="device"></app-device-list-item>
+            <mat-divider></mat-divider>
+        </div>
+    </div>
+
+    <ng-template #noDevices>
+        <mat-list-item *ngIf="devices.length == 0" style="display: flex; justify-content: center;">
+            <p i18n="@@Devices.ListEmpty" matLine>There are no devices yet...</p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+    </ng-template>
+</mat-list>

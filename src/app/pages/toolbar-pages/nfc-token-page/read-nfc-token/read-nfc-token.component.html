@@ -1,0 +1,48 @@
+<button (click)="helpButtonHandler()" class="help-button" mat-icon-button>
+    <mat-icon [ngStyle]="{'opacity':0.5}">help_outline</mat-icon>
+</button>
+
+<!--The SVG that is displayed when the device is NFC capable.-->
+<div *ngIf="isNfcCapable; else noNfc">
+    <!--    If the hardware is currently scanning, set the opacity to 1-->
+    <img [ngStyle]="{'opacity':(isScanning ? 1 : 0.2)}"
+         alt="contactless icon"
+         class="icon"
+         src="assets/Contactless-Logo/Contactless.svg">
+    <br>
+    <div style="text-align: center; height: 50px;">
+        <div *ngIf="!isScanning; else instruction"
+             i18n="@@NfcTags.Scan.Instruction.Activate">
+            Tap the button below to start scanning.
+        </div>
+        <ng-template #instruction>
+            <div i18n="@@NfcTags.Scan.Instruction.Place">
+                Please touch the NFC-Chip to the NFC reader on your device!
+            </div>
+        </ng-template>
+    </div>
+</div>
+
+<!--The SVG that is displayed when the device is not NFC capable.-->
+<ng-template #noNfc>
+
+
+    <img [ngStyle]="{'opacity':0.2}" alt="contactless icon" class="icon"
+         src="assets/Contactless-Logo/No_Contactless.svg">
+
+    <br>
+    <div i18n="@@NfcTags.Scan.Incompatible" style="text-align: center">This device is not able to read NFC!</div>
+</ng-template>
+
+<app-loading-bar [isVisible]="isLoading"></app-loading-bar>
+
+<button (click)="startScanningButtonHandler()"
+        color="primary"
+        disabled="{{!isNfcCapable}}"
+        mat-raised-button>
+    <div *ngIf="!isScanning; else stopScanningButtonText" i18n="@@NfcTags.Scan.Button.Start">Start Scanning</div>
+    <ng-template #stopScanningButtonText>
+        <div i18n="@@NfcTags.Scan.Button.Stop">Stop Scanning</div>
+    </ng-template>
+
+</button>

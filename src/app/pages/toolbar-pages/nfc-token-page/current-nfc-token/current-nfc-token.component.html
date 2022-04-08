@@ -1,0 +1,22 @@
+<mat-expansion-panel (expandedChange)="isOpen=$event"
+                     [cdkTrapFocus]="false"
+                     [disabled]="isLoading"
+                     [expanded]="isOpen"
+                     [hideToggle]="isLoading">
+    <mat-expansion-panel-header>
+        <mat-panel-title *ngIf="!isLoading else progBar;" i18n="@@NfcTags.CurrentTag.Label">
+            Current NFC Tag
+        </mat-panel-title>
+
+        <ng-template #progBar>
+            <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+        </ng-template>
+    </mat-expansion-panel-header>
+
+    <div class="button-icon-wrapper">
+        <app-user-has-nfc-token-button (onCheck)="actionHandler($event)" class="button" style="margin-bottom: 5px">
+        </app-user-has-nfc-token-button>
+        <app-delete-nfc-token-button (onDelete)="actionHandler($event)" class="button"></app-delete-nfc-token-button>
+    </div>
+
+</mat-expansion-panel>

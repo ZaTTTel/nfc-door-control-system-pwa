@@ -1,0 +1,30 @@
+<div (keydown.control.enter)="confirmHandler()" class="dialog-content" mat-dialog-content>
+    <mat-form-field (keyup.enter)="endpointInput.focus()" appearance="fill">
+        <mat-label i18n="@@Devices.Input.Label">Label</mat-label>
+        <input #labelInput (change)="labelValue=labelInput.value" [value]="labelValue" matInput>
+    </mat-form-field>
+
+    <mat-form-field (keyup.enter)="eventInput.focus()" appearance="fill">
+        <mat-label i18n="@@Devices.Input.Endpoint">Endpoint URL</mat-label>
+        <input #endpointInput (change)="endpointValue=endpointInput.value" [value]="endpointValue" matInput>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label i18n="@@Devices.Input.Event">Trigger</mat-label>
+        <mat-select #eventInput (valueChange)="eventValue = eventInput.value" [value]="eventValue">
+            <mat-option *ngFor="let trigger of triggerTypes" [value]="trigger['event']">
+                {{trigger['eventLabel']}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+</div>
+
+<mat-dialog-actions style="display: flex;">
+    <button (click)="confirmHandler()"
+            color="primary"
+            i18n="@@Dialogs.Button.Confirm"
+            mat-raised-button
+            style="width: 100%;">
+        Confirm
+    </button>
+</mat-dialog-actions>

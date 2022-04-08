@@ -1,0 +1,148 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2022-01-31 11:59:13
+count workspace : c:\dev\TECO_DOOR\Implementierung\pwa\src
+total files : 123
+total code lines : 2417
+total comment lines : 1372
+total blank lines : 366
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .css|            157|              4|             27|    6.5|
+   |   .webmanifest|             60|              0|              0|    2.5|
+   |            .ts|           1579|           1028|            281|     65|
+   |          .html|            354|              8|             50|     15|
+   |          .scss|             37|             15|              7|    1.5|
+   |           .svg|             39|              0|              0|    1.6|
+   |           .pdn|            116|            317|              0|    4.8|
+   |           .xlf|             75|              0|              1|    3.1|
+   |               |              0|              0|              0|    0.0|
+   -------------------------------------------------------------------------
+app\app.component.css, code is 38, comment is 3, blank is 7.
+app\app.component.html, code is 26, comment is 0, blank is 9.
+app\app.component.ts, code is 20, comment is 27, blank is 8.
+app\app.module.ts, code is 169, comment is 6, blank is 9.
+app\common\components\loading-bar\loading-bar.component.css, code is 0, comment is 0, blank is 0.
+app\common\components\loading-bar\loading-bar.component.html, code is 7, comment is 0, blank is 0.
+app\common\components\loading-bar\loading-bar.component.ts, code is 10, comment is 13, blank is 3.
+app\common\components\uid-display\uid-display.component.css, code is 0, comment is 0, blank is 0.
+app\common\components\uid-display\uid-display.component.html, code is 1, comment is 0, blank is 0.
+app\common\components\uid-display\uid-display.component.ts, code is 11, comment is 10, blank is 3.
+app\common\services\communicators\api-communicator\api-communicator.service.ts, code is 302, comment is 68, blank is 27.
+app\common\services\communicators\CommunicatorService.ts, code is 16, comment is 54, blank is 13.
+app\common\services\communicators\dummy-communicator\dummy-communicator.service.ts, code is 195, comment is 1, blank is 30.
+app\common\services\logger\console-logger\console-logger.service.ts, code is 13, comment is 14, blank is 3.
+app\common\services\logger\LoggerService.ts, code is 4, comment is 14, blank is 3.
+app\common\services\login-status\login-status.service.ts, code is 25, comment is 32, blank is 10.
+app\common\services\nfc-uid-scanner\NfcUidScannerService.ts, code is 6, comment is 20, blank is 6.
+app\common\services\nfc-uid-scanner\web-nfc-uid-scanner\web-nfc-uid-scanner.service.ts, code is 49, comment is 55, blank is 13.
+app\common\services\pop-up\pop-up.service.ts, code is 20, comment is 21, blank is 6.
+app\common\services\switch-user-status\switch-user-status.service.ts, code is 23, comment is 24, blank is 5.
+app\common\util-types\user\User.ts, code is 8, comment is 13, blank is 3.
+app\navigation\side-nav\side-nav-content\side-nav-content.component.css, code is 3, comment is 0, blank is 0.
+app\navigation\side-nav\side-nav-content\side-nav-content.component.html, code is 15, comment is 0, blank is 5.
+app\navigation\side-nav\side-nav-content\side-nav-content.component.ts, code is 31, comment is 33, blank is 8.
+app\navigation\toolbar\toolbar.component.css, code is 0, comment is 0, blank is 0.
+app\navigation\toolbar\toolbar.component.html, code is 5, comment is 0, blank is 0.
+app\navigation\toolbar\toolbar.component.ts, code is 9, comment is 10, blank is 2.
+app\pages\login-page\login-page.component.css, code is 3, comment is 0, blank is 0.
+app\pages\login-page\login-page.component.html, code is 25, comment is 0, blank is 3.
+app\pages\login-page\login-page.component.ts, code is 52, comment is 26, blank is 10.
+app\pages\PageComponent.ts, code is 2, comment is 6, blank is 0.
+app\pages\toolbar-pages\devices-page\add-device-button\add-device-button.component.css, code is 0, comment is 0, blank is 0.
+app\pages\toolbar-pages\devices-page\add-device-button\add-device-button.component.html, code is 5, comment is 0, blank is 0.
+app\pages\toolbar-pages\devices-page\add-device-button\add-device-button.component.ts, code is 33, comment is 20, blank is 4.
+app\pages\toolbar-pages\devices-page\devices-list\device-list-item\delete-device-confirmation-dialog.html, code is 8, comment is 0, blank is 0.
+app\pages\toolbar-pages\devices-page\devices-list\device-list-item\device-list-item.component.css, code is 0, comment is 0, blank is 0.
+app\pages\toolbar-pages\devices-page\devices-list\device-list-item\device-list-item.component.html, code is 25, comment is 4, blank is 3.
+app\pages\toolbar-pages\devices-page\devices-list\device-list-item\device-list-item.component.ts, code is 67, comment is 47, blank is 9.
+app\pages\toolbar-pages\devices-page\devices-list\devices-list.component.css, code is 0, comment is 0, blank is 0.
+app\pages\toolbar-pages\devices-page\devices-list\devices-list.component.html, code is 16, comment is 0, blank is 3.
+app\pages\toolbar-pages\devices-page\devices-list\devices-list.component.ts, code is 31, comment is 29, blank is 8.
+app\pages\toolbar-pages\devices-page\devices-page.component.css, code is 4, comment is 0, blank is 0.
+app\pages\toolbar-pages\devices-page\devices-page.component.html, code is 3, comment is 0, blank is 4.
+app\pages\toolbar-pages\devices-page\devices-page.component.ts, code is 17, comment is 13, blank is 5.
+app\pages\toolbar-pages\devices-page\input-device-info-dialog\input-device-info-dialog.component.css, code is 5, comment is 0, blank is 0.
+app\pages\toolbar-pages\devices-page\input-device-info-dialog\input-device-info-dialog.component.html, code is 25, comment is 0, blank is 3.
+app\pages\toolbar-pages\devices-page\input-device-info-dialog\input-device-info-dialog.component.ts, code is 49, comment is 40, blank is 8.
+app\pages\toolbar-pages\home-page\camera-access\camera-access.component.css, code is 35, comment is 0, blank is 11.
+app\pages\toolbar-pages\home-page\camera-access\camera-access.component.html, code is 12, comment is 0, blank is 1.
+app\pages\toolbar-pages\home-page\camera-access\camera-access.component.ts, code is 12, comment is 12, blank is 5.
+app\pages\toolbar-pages\home-page\camera-access\video-stream\http-video\http-video.component.css, code is 11, comment is 0, blank is 3.
+app\pages\toolbar-pages\home-page\camera-access\video-stream\http-video\http-video.component.html, code is 9, comment is 0, blank is 1.
+app\pages\toolbar-pages\home-page\camera-access\video-stream\http-video\http-video.component.ts, code is 21, comment is 0, blank is 5.
+app\pages\toolbar-pages\home-page\camera-access\video-stream\rtsp-video\rtsp-video.component.css, code is 11, comment is 0, blank is 3.
+app\pages\toolbar-pages\home-page\camera-access\video-stream\rtsp-video\rtsp-video.component.html, code is 4, comment is 0, blank is 2.
+app\pages\toolbar-pages\home-page\camera-access\video-stream\rtsp-video\rtsp-video.component.ts, code is 30, comment is 52, blank is 7.
+app\pages\toolbar-pages\home-page\home-page.component.css, code is 0, comment is 0, blank is 0.
+app\pages\toolbar-pages\home-page\home-page.component.html, code is 3, comment is 0, blank is 0.
+app\pages\toolbar-pages\home-page\home-page.component.ts, code is 9, comment is 6, blank is 2.
+app\pages\toolbar-pages\home-page\open-door-button\open-door-button.component.css, code is 4, comment is 0, blank is 0.
+app\pages\toolbar-pages\home-page\open-door-button\open-door-button.component.html, code is 9, comment is 0, blank is 0.
+app\pages\toolbar-pages\home-page\open-door-button\open-door-button.component.ts, code is 26, comment is 20, blank is 4.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\current-uid.component.css, code is 7, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\current-uid.component.html, code is 19, comment is 0, blank is 3.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\current-uid.component.ts, code is 23, comment is 22, blank is 5.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\delete-uid-button\delete-uid-button.component.css, code is 4, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\delete-uid-button\delete-uid-button.component.html, code is 6, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\delete-uid-button\delete-uid-button.component.ts, code is 47, comment is 43, blank is 9.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\delete-uid-button\delete-uid-confirmation-dialog.html, code is 10, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\user-has-uid-button\check-uid-info-dialog.html, code is 11, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\user-has-uid-button\user-has-uid-button.component.css, code is 4, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\user-has-uid-button\user-has-uid-button.component.html, code is 1, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-uid\user-has-uid-button\user-has-uid-button.component.ts, code is 42, comment is 39, blank is 7.
+app\pages\toolbar-pages\nfc-uid-page\current-user\change-user\change-user-info-dialog.html, code is 9, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-user\change-user\change-user.component.css, code is 3, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-user\change-user\change-user.component.html, code is 19, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-user\change-user\change-user.component.ts, code is 37, comment is 32, blank is 5.
+app\pages\toolbar-pages\nfc-uid-page\current-user\current-user.component.css, code is 6, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\current-user\current-user.component.html, code is 8, comment is 1, blank is 2.
+app\pages\toolbar-pages\nfc-uid-page\current-user\current-user.component.ts, code is 12, comment is 11, blank is 2.
+app\pages\toolbar-pages\nfc-uid-page\nfc-uid-page.component.css, code is 5, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\nfc-uid-page.component.html, code is 11, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\nfc-uid-page.component.ts, code is 18, comment is 13, blank is 3.
+app\pages\toolbar-pages\nfc-uid-page\read-uid\read-uid.component.css, code is 7, comment is 0, blank is 1.
+app\pages\toolbar-pages\nfc-uid-page\read-uid\read-uid.component.html, code is 25, comment is 3, blank is 4.
+app\pages\toolbar-pages\nfc-uid-page\read-uid\read-uid.component.ts, code is 75, comment is 65, blank is 13.
+app\pages\toolbar-pages\nfc-uid-page\read-uid\set-uid\set-uid-dialog.component.css, code is 0, comment is 0, blank is 0.
+app\pages\toolbar-pages\nfc-uid-page\read-uid\set-uid\set-uid-dialog.component.html, code is 18, comment is 0, blank is 6.
+app\pages\toolbar-pages\nfc-uid-page\read-uid\set-uid\set-uid-dialog.component.ts, code is 30, comment is 45, blank is 6.
+app\pages\toolbar-pages\ToolbarPageComponent.ts, code is 3, comment is 6, blank is 1.
+assets\.gitkeep, code is 0, comment is 0, blank is 0.
+assets\Contactless-Logo\Contactless.svg, code is 6, comment is 0, blank is 0.
+assets\Contactless-Logo\No_Contactless.svg, code is 33, comment is 0, blank is 0.
+assets\icons\icon-128x128.png, it is a binary file.
+assets\icons\icon-144x144.png, it is a binary file.
+assets\icons\icon-152x152.png, it is a binary file.
+assets\icons\icon-192x192.png, it is a binary file.
+assets\icons\icon-384x384.png, it is a binary file.
+assets\icons\icon-512x512.png, it is a binary file.
+assets\icons\icon-72x72.png, it is a binary file.
+assets\icons\icon-96x96.png, it is a binary file.
+assets\icons\icon-only lock.png, it is a binary file.
+assets\icons\icon-rendered-2-light.png, it is a binary file.
+assets\icons\icon-rendered-2.png, it is a binary file.
+assets\icons\icon-rendered-3-light.png, it is a binary file.
+assets\icons\icon-rendered-3.png, it is a binary file.
+assets\icons\icon-rendered-light.png, it is a binary file.
+assets\icons\icon-rendered.png, it is a binary file.
+assets\icons\icon.blend, it is a binary file.
+assets\icons\icon.blend1, it is a binary file.
+assets\icons\icon.pdn, code is 116, comment is 317, blank is 0.
+custom-theme.scss, code is 37, comment is 15, blank is 7.
+environments\environment.prod.ts, code is 3, comment is 0, blank is 0.
+environments\environment.ts, code is 3, comment is 11, blank is 2.
+favicon.ico, it is a binary file.
+index.html, code is 19, comment is 0, blank is 1.
+locale\messages.de.xlf, code is 41, comment is 0, blank is 1.
+locale\messages.xlf, code is 34, comment is 0, blank is 0.
+main.ts, code is 9, comment is 0, blank is 3.
+manifest.webmanifest, code is 60, comment is 0, blank is 0.
+polyfills.ts, code is 2, comment is 51, blank is 2.
+styles.css, code is 7, comment is 1, blank is 2.
+test.ts, code is 15, comment is 4, blank is 4.
+===============================================================================

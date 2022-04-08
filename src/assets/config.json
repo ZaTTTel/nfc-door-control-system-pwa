@@ -1,0 +1,15 @@
+{
+    "apiBaseUrl": "https://10.12.181.98:5000/api",
+    "defaultStreamQuality": "SD",
+    "startWithVideoOff": false,
+    "videoToggleOnFocus": true,
+    "streamAspectRatio": "56.25%",
+    "tapStreamToOpenDoor": true,
+    "tapStreamToToggleCam": false,
+    "logging": {
+        "console": true
+    },
+    "vapidPublicKey": "BM_zJWwukVPA6D0u10ZpbAXyve4_YvoUwrKEZOg29edIYMI6NDO8F8NW0E9tMd4nalthN1C8Q0avcql1bmgjl94",
+    "notificationDuration": 50000,
+    "language": "en-US"
+}

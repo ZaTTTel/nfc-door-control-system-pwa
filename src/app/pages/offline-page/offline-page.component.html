@@ -1,0 +1,8 @@
+<!--<img src="assets/icons/icon.svg" class="logo" style="margin-bottom: 20px" [@rotated]="(rotating) ? 'rotating':''"-->
+<!--     (@rotated.done)="rotating = false" alt="logo">-->
+
+<p #spinner (@rotated.done)="rotating = false;" [@rotated]="(rotating) ? 'rotating':''" i18n="@@Offline.Info"
+   style="text-align: center; user-select: none">
+    You are offline! Please make sure you are in the correct network!
+</p>
+

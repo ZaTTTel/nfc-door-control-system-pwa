@@ -1,0 +1,7 @@
+<div style="height: 10px; position: relative;">
+    <div *ngIf="!isVisible; else progBar"></div>
+    <ng-template #progBar>
+        <mat-progress-bar *ngIf="isVisible" mode="indeterminate"
+                          style="position: absolute; bottom: auto;"></mat-progress-bar>
+    </ng-template>
+</div>
