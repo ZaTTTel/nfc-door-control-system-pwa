@@ -1,6 +1,10 @@
 # TECO Door - Progressive Web-App
 
-In this readme, you will find everything you need to deploy (and modify) the TECO Door PWA.
+This is a sub-system of the [nfc-door-control-system](https://github.com/l-nn-rt/nfc-door-control-system)
+project, containing only the progressive web-app. For it to function correctly, either install the rest of the project,
+or feel free to create your own.
+
+In this README, you will find everything you need to deploy (and modify) the TECO Door PWA.
 
 If you have any remaining questions that aren't answered here, please don't hesitate to email me
 at [zatttel@gmail.com](mailto:zatttel@gmail.com) or [uemqn@student.kit.edu](mailto:uemqn@student.kit.edu). I'd be glad
