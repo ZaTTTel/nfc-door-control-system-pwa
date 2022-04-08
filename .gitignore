@@ -45,6 +45,5 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# node_modules
-/Implementierung/pwa/.angular/
-/Implementierung/pwa/node_modules/
+# Certificates
+/certificate/*.pem
