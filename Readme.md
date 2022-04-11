@@ -10,6 +10,18 @@ If you have any remaining questions that aren't answered here, please don't hesi
 at [zatttel@gmail.com](mailto:zatttel@gmail.com) or [uemqn@student.kit.edu](mailto:uemqn@student.kit.edu). I'd be glad
 to take some time to help you.
 
+## Using the site and installing the app
+
+When opening the website version, you will be prompted to allow push-notifications. Accepting this will enable
+browser-notifications informing you of the doorbell being rung. This can be turned off at any time. (In Google Chrome,
+click the lock in the top-left and disable the 'Notifications' switch.)
+
+When opening the website on android, an additional prompt will appear asking you to install the website as a progressive
+web-app. If you do not see the prompt or accidentally declined it, you can tap menu -> Install app, depending on your
+browser.
+
+Notifications and PWA installations only work when the app is built, not served. You can find out how to do both below.
+
 ## Before building or serving
 
 ### Installing necessary NPM packages
@@ -90,7 +102,9 @@ Small changes in the functionality of the app can be made in the [config file](s
 | notificationDuration | The duration in milliseconds that are needed to pass for an arrived notification to be removed                                                                                                                                                |                        `number`                         |                                             `180000`                                              |           Yes            |
 | language             | The language in which the web-app interface is displayed in, in the ISO 639-1 format (language and region as specified in [this table](https://en.wikipedia.org/wiki/Language_localisation#Language_tags_and_codes), eg. "en-US" or "fr-FR")  |                        `string`                         |                                              `"en"`                                               |           Yes            |
 
-*You will not need to rebuild, but users of the app might have to delete app/site data for changes to take effect.
+*You will not need to rebuild, but users of the app might have to delete app/site data for changes to take effect. Note
+that changes need to be made in `dist/assets/config.json`, and not in `src/assets/confog.json` for changes to affect the
+current build.
 
 ## Languages
 
