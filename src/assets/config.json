@@ -1,5 +1,5 @@
 {
-    "apiBaseUrl": "https://10.12.181.98:5000/api",
+    "apiBaseUrl": "https://localhost:5000/api",
     "defaultStreamQuality": "SD",
     "startWithVideoOff": false,
     "videoToggleOnFocus": true,
